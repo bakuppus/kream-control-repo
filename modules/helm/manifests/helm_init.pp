@@ -51,7 +51,7 @@
     })
   }
 
-  $exec_init = "helm ${helm_init_flags}"
+  $exec_init = "/usr/bin/helm ${helm_init_flags}"
   $unless_init = "kubectl get deployment --namespace=${tiller_namespace}  | grep 'tiller-deploy' "
 
   exec { 'helm init':
