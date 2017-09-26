@@ -5,8 +5,6 @@ $hostname = Socket.gethostname
 
 forge 'http://forge.puppetlabs.com'
 
-mod 'puppetlabs/kubernetes'
-mod 'puppetlabs/helm'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/apt'
 mod 'stahnma-epel'
