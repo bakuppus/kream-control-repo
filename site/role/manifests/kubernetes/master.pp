@@ -6,10 +6,13 @@ class role::kubernetes::master {
   }
 
   include helm
+  include rook
 
   contain kubernetes
   contain helm
+  contain rook
 
   Class['kubernetes']
   -> Class['helm']
+  -> Class['rook']
 }
