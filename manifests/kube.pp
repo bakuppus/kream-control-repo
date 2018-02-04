@@ -11,5 +11,7 @@ node /^kube-node/  {
 }
 
 node /docker/ {
-  include docker
+  class {'docker':
+    version => '1.12.3-0~xenial',
+  }
 }
