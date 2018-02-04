@@ -10,6 +10,6 @@ node /^kube-node/  {
   include role::kubernetes::worker
 }
 
-node 'docker.kream.demo' {
+node /docker/ {
   include docker
 }
