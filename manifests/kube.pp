@@ -9,3 +9,7 @@ node /^kube-replica-master/ {
 node /^kube-node/  {
   include role::kubernetes::worker
 }
+
+node 'docker.kream.demo' {
+  include docker
+}
