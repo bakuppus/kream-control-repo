@@ -1,4 +1,7 @@
 version: 5
+defasults:
+  datadir: hieradata
+  data_hash: yaml_data
 hierarchy:
 - name: "OS-specific configuration"
   path: "Redhat.yaml"
