@@ -1,0 +1,7 @@
+version: 5
+hierarchy:
+- name: "OS-specific configuration"
+  path: "Redhat.yaml"
+
+- name: "Kube-master specific configuration"
+  path: "kube-master.yaml"
