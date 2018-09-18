@@ -1,8 +1,8 @@
 
-kubernetes::kubernetes_version: 1.10.2
-kubernetes::kubernetes_package_version: 1.10.2
+kubernetes::kubernetes_version: 1.11.3
+kubernetes::kubernetes_package_version: 1.11.3
 kubernetes::container_runtime: docker
-kubernetes::cni_network_provider: https://cloud.weave.works/k8s/net?k8s-version=1.10.2
+kubernetes::cni_network_provider: https://cloud.weave.works/k8s/net?k8s-version=1.11.3
 kubernetes::cni_pod_cidr: 10.32.0.0/12
 kubernetes::etcd_initial_cluster: kube-master=https://172.31.3.101:2380
 kubernetes::etcd_peers:
